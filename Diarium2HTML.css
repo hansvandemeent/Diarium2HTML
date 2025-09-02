@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@400;600&display=swap');
+
+..heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.rating {
+    font-size: 0.6em;
+    color: #f5b301;
+    letter-spacing: 1px;
+}
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background: linear-gradient(to bottom, #fdfcfb, #e2e2e2);
+        margin: 0;
+        padding: 40px;
+        line-height: 1.6;
+        color: #333;
+    }
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.8em;
+        margin-bottom: 40px;
+        color: #2c2c2c;
+        text-align: center;
+    }
+    .entry {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 0 auto 50px auto;
+        max-width: 700px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+    .date {
+        font-size: 0.95em;
+        color: #777;
+        margin-bottom: 5px;
+    }
+    .heading {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: #1a1a1a;
+    }
+    .tags {
+        font-size: 0.85em;
+        color: #555;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+    .location {
+        font-size: 0.9em;
+        color: #444;
+        margin-bottom: 10px;
+    }
+    .location a {
+        color: #0077cc;
+        text-decoration: none;
+    }
+    .location a:hover {
+        text-decoration: underline;
+    }
+    .content {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+    .weather {
+        font-size: 0.9em;
+        color: #555;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .photos img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        object-fit: contain;
+    }
