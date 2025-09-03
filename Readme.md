@@ -4,7 +4,8 @@ No support yet for Tracker, Person.
 
 **Workflow:**
 - Export from Diarium 
-- Select the information you want to include in the HTML. If you select "Create separate file for each entry" then the script creates multiple .html files. 
+- Select the information you want to include in the HTML. If you select "Create separate file for each entry" then the script creates multiple .html files.
+
 ![Export.png](images/Export.png)
 - Click Export, select JSON format
 - Uncompress the zip file. The folder contains a .json file and a media folder with the images.
@@ -42,11 +43,13 @@ Remember Tags, Location, Rating and Weather can be selected / deselected when ex
 
 ![wrap.png](images/wrap.png)
 
-These style don't need a change in code, only in css
 
 **Sample page: travel.css**
 
 ![travel.png](images/travel.png)
+
+These style don't need a change in code, only in css
+
 
 
 
