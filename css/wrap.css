@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.entry {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 0 1 600px;
+    margin: 20px;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.rating {
+    font-size: 1.1em;
+    color: #f5b301;
+    letter-spacing: 2px;
+}
+
+.tags {
+    font-size: 0.85em;
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.location, .weather {
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.location a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    object-fit: contain;
+}

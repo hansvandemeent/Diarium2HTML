@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #fdf6e3;
+    margin: 0;
+    padding: 50px;
+    color: #3b2f2f;
+    background-image: linear-gradient(to bottom, #fdf6e3, #f5e9d4);
+}
+
+h1 {
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #5c4433;
+    letter-spacing: 1px;
+}
+
+.entry {
+    background-color: #fffaf0;
+    border: 1px solid #e0d4b7;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 0 auto 40px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.date {
+    font-size: 0.95em;
+    color: #7a6a53;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #4a3b2c;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.rating {
+    font-size: 1em;
+    color: #c19a6b;
+    letter-spacing: 2px;
+}
+
+.tags {
+    font-size: 0.85em;
+    color: #6b5b3e;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.location, .weather {
+    font-size: 0.9em;
+    color: #5a4a3a;
+    margin-bottom: 10px;
+}
+
+.location a {
+    color: #8b5e3c;
+    text-decoration: none;
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.photos img {
+    max-width: 280px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    object-fit: contain;
+    border: 1px solid #e0d4b7;
+}
